@@ -1,0 +1,9 @@
+pandas
+streamlit
+plotly
+plotly
+scikit-learn
+statsmodels
+numpy
+streamlit_option_menu
+extra_streamlit_components
