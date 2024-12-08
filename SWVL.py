@@ -28,7 +28,7 @@ class UI:
     def display_filters(self):
         """Display the filtering UI and return user selections."""
         rides, routes, _,_ = self.data_loader.get_data()
-        st.header("calculates the UTZ and Revenue per Month, Category, and City Pair")
+        st.subheader("calculates the UTZ and Revenue per Month, Category, and City Pair")
         # Define columns in the layout
         col1, col2, col3, col4 = st.columns([1, 2, 2, 2])
         with col1:
