@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from datetime import datetime
 
 class LoadingData:
     def __init__(self, path='Case Study Data new.xlsx'):
