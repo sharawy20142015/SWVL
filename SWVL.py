@@ -97,7 +97,7 @@ class Calculate:
 
             st.dataframe(revenue, use_container_width=True)
         except Exception as e:
-            st.error(f"Error generating revenue summary: {e}")
+            pass
     # UTZ
     def UTZ(self):
         st.subheader("UTZ")
